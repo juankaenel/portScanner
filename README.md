@@ -1,7 +1,7 @@
 # Escáner de puertos desarrollado en python
 
 ## -------- Instalación --------
-    * Para instalar ejecute -> pip3 install -r requeriments.txt
+    * Para instalar ejecute -> pip3 install -r requirements.txt
 
 ## -------- Modo de uso --------
     * python3 portScanner.py
