@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import socket, sys
 from IPy import IP
-from colorama import init, Fore, Back, Style
+from colorama import Fore
 
 print(Fore.YELLOW + "\n~ Welcome to PortScanner ~") 
 print(Fore.YELLOW + "\nCreated By:") 
@@ -14,8 +14,6 @@ print(Fore.WHITE + "|_| \_\  |_|/___|\___/|_|   ")
 print(Fore.YELLOW + "\nWeb Page: https://juankaenel.com \n")
 print(Fore.YELLOW + "[Info] Tool made in python to scan ports and services of a target or several \n")
 print(Fore.YELLOW + "----------------------------------------------------------------------------------\n")            
-
-
 
 def scan(target):
     """Chequea la ip llamando a la función y recorre los puertos asignados en el rango.
